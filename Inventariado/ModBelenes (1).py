@@ -4,17 +4,10 @@ from pywinauto import Application, Desktop, timings
 from pywinauto.mouse import click
 from pywinauto.keyboard import send_keys
 
-MANIFEST_URL = "http://paninipoints.ybridio.com/y/Ybridio.application"  # URL remota que funciona
-PASSWORD = "GerenGTeBel3"
-USERNAME = "GerenGTeBel3/2025"
+MANIFEST_URL = "YOUR_APPLICATION_URL"
+USERNAME = "YOUR_USERNAME"
+PASSWORD = "YOUR_PASSWORD"
 LAUNCH_TIMEOUT = 180                
-MAIN_WINDOW_TITLE_PART = "Panini"   
-USERNAME_AUTOMATION = None
-PASSWORD_AUTOMATION = None
-LOGIN_BUTTON_TEXT = "Ingresar"
-EXPORT_KEYWORDS = ("export","csv","descargar","exportar","generar","reporte","report")
-DOWNLOAD_DIR = r"C:\Users\eder2\Downloads"
-EXPORT_FILENAME = "export_panini.csv"
 
 def launch_remote_application(url):
     subprocess.Popen(['rundll32.exe', 'dfshim.dll,ShOpenVerbApplication', url], shell=False)
