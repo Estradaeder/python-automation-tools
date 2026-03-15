@@ -4,9 +4,9 @@ from pywinauto import Application, Desktop
 from pywinauto.mouse import click
 from pywinauto.keyboard import send_keys
 
-MANIFEST_URL = "http://paninipoints.ybridio.com/y/Ybridio.application"
-USERNAME = "ContPdelSol2-2025"
-PASSWORD = "ContPdelSol2"
+MANIFEST_URL = "YOUR_APPLICATION_URL"
+USERNAME = "YOUR_USERNAME"
+PASSWORD = "YOUR_PASSWORD"
 MAIN_WINDOW_TITLE_PART = "Panini"
 LAUNCH_TIMEOUT = 180
 
