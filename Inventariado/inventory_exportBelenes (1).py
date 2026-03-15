@@ -4,9 +4,9 @@ from pywinauto import Application, Desktop, timings
 from pywinauto.mouse import click
 from pywinauto.keyboard import send_keys
 
-MANIFEST_URL = "http://paninipoints.ybridio.com/y/Ybridio.application"  # URL remota que funciona
-PASSWORD = "GerenGTeBel3"
-USERNAME = "GerenGTeBel3/2025"
+MANIFEST_URL = "http://demo.demo.com/y/demo.application"
+PASSWORD = "DEMO"
+USERNAME = "DEMO"
 LAUNCH_TIMEOUT = 180                
 MAIN_WINDOW_TITLE_PART = "Panini"   
 USERNAME_AUTOMATION = None
