@@ -16,5 +16,29 @@ Procesamiento de imágenes
 Web scraping
 Manejo de datos
 
+# Python Automation Tools
+
+Collection of Python scripts designed to automate repetitive operational tasks.
+
+These tools were developed to simplify manual workflows such as inventory export,
+product image retrieval, and data processing.
+
+## Projects
+
+### Inventory Automation
+Automates the export of inventory data from a desktop application using GUI automation.
+
+### Product Image Scraper
+Automatically retrieves product image URLs from the web based on SKU codes stored in Excel files.
+
+## Technologies
+
+- Python
+- pandas
+- requests
+- BeautifulSoup
+- threading
+- pywinauto
+
 Nota
 Algunos proyectos han sido adaptados o simplificados para eliminar referencias a entornos específicos o sistemas internos.
